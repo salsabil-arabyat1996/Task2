@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+
+.main {
+  
+  height:600px;
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  gap: 10px;
+  padding: 5px;
+  margin: auto;
+  width: 70%;
+  
+}
+.gruop1{
+  display: grid;
+  grid-template-columns: auto auto;
+  gap: 2px;
+  padding: 2px;
+}
+.group2{
+  display: grid;
+  grid-template: auto;
+  padding: 2px;
+  gap: 2px;
+
+}
+.group3{
+  display: grid;
+  grid-template-columns: auto  auto;
+  gap: 2px;
+  padding: 2px;
+
+}
+.item1,.item2,.item3,.item4,.item5,.item6,.item7,.item8,
+.item9,.item10,.item11,.item12{
+  background-color: rgb(239,239,239);
+  height: 201px;
+
+}
+ 
+.sub1,.sub3{
+  background-color:rgb(207,207,207);
+    grid-column: 1/ span 1;
+    height: 100px;
+}
+.sub2,.sub4{
+  background-color:rgb(207,207,207);
+    grid-column: 2/ span 1;
+    height: 100px;
+}
+.sub11{
+  grid-column: 1 /span1;
+  background-color:rgb(207,207,207);
+  height: 100px;
+}
+.sub22{
+  grid-column: 1 /span1;
+  background-color:rgb(207,207,207);
+  height: 100px;
+}
+.sub33{
+ background-color:rgb(207,207,207);
+    grid-column: 1/ span 1;
+    height: 200px; 
+}
+.sub44{
+ background-color:rgb(207,207,207);
+    grid-column: 2/ span 1;
+    height: 200px; 
+}
+</style>
+</head>
+<body>
+
+
+
+
+<div class="main">
+	<div class="item1">item1</div>
+	<div class="item2">  
+         <div class="gruop1">
+            <div class="sub1">sub1</div>
+            <div class="sub2">sub2</div>
+            <div class="sub3">sub3</div>
+            <div class="sub4">sub4</div>
+        </div>  
+    </div>
+	<div class="item3">
+    <div class="gruop1">
+      <div class="sub1">sub1</div>
+      <div class="sub2">sub2</div>
+      <div class="sub3">sub3</div>
+      <div class="sub4">sub4</div>
+
+    </div>
+  </div>
+
+	<div class="item4">item4</div>
+	<div class="item5">item5</div>
+	<div class="item6">
+    <div class="group2">
+      <div class="sub11">sub1</div>
+      <div class="sub22">sub2</div>
+    </div>
+  </div>
+    <div class="item7">
+      <div class="group3">
+        <div class="sub33">sub1</div>
+        <div class="sub44">sub2</div>
+      </div>
+    </div>
+	<div class="item8">item8</div>
+	<div class="item9">
+    <div class="gruop1">
+      <div class="sub1">sub1</div>
+      <div class="sub2">sub2</div>
+      <div class="sub3">sub3</div>
+      <div class="sub4">sub4</div>
+  </div> 
+  </div>
+    <div class="item10">item10</div>
+	<div class="item11">item11</div>
+	<div class="item12">
+    <div class="gruop1">
+      <div class="sub1">sub1</div>
+      <div class="sub2">sub2</div>
+      <div class="sub3">sub3</div>
+      <div class="sub4">sub4</div>
+  </div> 
+  </div>
+</div>
+
+</body>
+</html>

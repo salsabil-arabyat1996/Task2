@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+body {
+  background-color:#7fd672;
+}
+#myDIV {
+  height:500px;
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  gap: 10px;
+  background-color: hsla(207, 98%, 48%, 0.936);
+  padding: 10px;
+  width: 40%;
+ 
+}
+#myDIV div {
+  background-color: rgba(255, 255, 255, 0.8);
+  text-align: center;
+  padding: 20px 0;
+  font-size: 30px;
+}
+.item1 {
+  grid-column: 1 / span 4;
+  background-color: brown;
+}
+/* .item5{
+    background-color: yellow;
+}
+.item9{
+    background-color: red;
+} */
+</style>
+</head>
+<body>
+
+
+<div id="myDIV">
+  <div class="item1"></div>
+  <div class="item2">1</div>
+  <div class="item3">2</div>
+  <div class="item4">3</div>
+  <div class="item5" style="background-color: yellow;">+</div>
+  <div class="item6">4</div>
+  <div class="item7">5</div>
+   <div class="item8">6</div>
+  <div class="item9" style="background-color: yellow;">-</div>
+  <div class="item10">7</div>
+  <div class="item11">8</div>
+  <div class="item12">9</div>
+  <div class="item13" style="background-color: yellow;">*</div>
+   <div class="item14" style="background-color: red;">c</div>
+  <div class="item15">0</div>
+  <div class="item16">=</div>
+   <div class="item17" style="background-color: yellow;">/</div>
+</div>
+
+</body>
+</html>
